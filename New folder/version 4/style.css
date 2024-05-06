@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+}
+body {
+  background-image: url("images/pexels-polina-zimmerman-3747511.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#search {
+  width: 275px !important;
+}
+#radio input {
+  width: 15px;
+}
+#form-detail {
+  width: 50vw !important;
+  margin: 25px auto;
+  background-color: #fff !important;
+  border-radius: 15px;
+  padding: 25px;
+}
+.result-screen {
+  width: 50vw;
+  background-color: black !important;
+}
+@media screen and (max-width: 500px) {
+  .navbar-toggler-icon {
+    margin-right: 25px;
+  }
+  #form-detail {
+    width: 80vw !important;
+  }
+  #search {
+    width: 215px !important;
+    text-align: center;
+  }
+  #searchBtn{
+    margin-top:15px !important;
+  }
+  input {
+    width: 275px !important;
+  }
+  #navbarSupportedContent {
+    margin-left: 50px;
+  }
+  table {
+    width: 80vw !important;
+  }
+  .result-screen {
+    margin-left: 25px !important;
+  }
+}
